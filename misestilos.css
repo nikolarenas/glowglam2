@@ -1,0 +1,94 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+html{
+	background-color: ;
+}
+body{
+	width: 1000px;
+	height: 1000px;
+	background-color:;
+	margin: auto;
+}
+header{
+	width: 1000px;
+	height: 200px;
+	background-color: ;
+	
+}
+nav{
+	width: 1000px;
+	height: 50px;
+	background-color:;
+}
+article{
+	width: 800px;
+	height: 700px;
+	background-color: #ffc0cb;
+	float: left;
+}
+
+aside{
+	width: 200px;
+	height: 700px;
+	background-color: #ffa3b5;
+	float: left;
+}
+footer{
+	width: 1000px;
+	height: 50px;
+	background-color:white;
+	float: left;
+}
+/*BARRA DE NAVEGACION*/
+
+nav a{
+	text-decoration: none;
+	color: inherit;
+	font-size: 23px;
+	font-family: calibri;
+
+}
+
+nav li {
+	display: inline-block;
+	padding: 10px 15px;
+	box-shadow: 0 0 4px #ffffff;
+	color: hotpink;
+	background-color: white;
+}
+
+nav li:hover{
+	background-color: #ffccff;
+	color: #871f78;
+	box-shadow: 0 0 15px #ff66cc;
+	transition: 1s;
+
+}
+
+nav ul{
+	text-align: left;
+}
+
+/*REDES SOCIALES*/
+
+.redes ul{
+	list-style: none;
+	text-align: center;
+
+}
+ .redes ul{
+ 	display: inline-block;
+ 	padding: 5px 1px;
+ }
+
+ .redes ul li img { width: 34px;
+  }
+.redes ul li:hover{ 
+  	box-shadow: 0 0 20px #ffffff;
+ transition: 1s;
+ }
+
+
